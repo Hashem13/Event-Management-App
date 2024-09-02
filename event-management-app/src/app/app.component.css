@@ -1,0 +1,19 @@
+h1 {
+    color: #E0E0E0; /* Light Gray Text */
+    font-size: 2.5em; /* Larger font for emphasis */
+    font-family: 'Roboto', sans-serif; /* Custom Font */
+    font-weight: 700; /* Bold Font */
+    text-transform: uppercase; /* Uppercase Text */
+    letter-spacing: 2px; /* Add spacing between letters */
+    margin: 0.5em 0; /* Add margin around the title */
+    text-align: center; /* Center the title */
+    border-bottom: 2px solid #8E44AD; /* Purple Border */
+    padding-bottom: 0.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Slightly smaller for mobile */
+    }
+}

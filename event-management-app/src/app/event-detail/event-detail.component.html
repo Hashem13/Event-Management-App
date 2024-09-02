@@ -1,0 +1,16 @@
+<div *ngIf="event" class="one">
+
+    <h2 class="two">{{event.Title| uppercase}} Details</h2>
+    <div class="three"><span>id: </span>{{event.id}}</div>
+    <div class="four">
+      <label class="five">Title:
+        <input [(ngModel)]="event.Title" placeholder="Title"/>
+      </label>
+      <label class="six">Description:
+        <input [(ngModel)]="event.Description" placeholder="Description"/>
+      </label >
+      <label class="seven">Date:
+        <input [(ngModel)]="event.Date" placeholder="Date"/>
+      </label>
+    </div>
+    </div>

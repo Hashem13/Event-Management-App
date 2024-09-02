@@ -1,0 +1,80 @@
+/* General Styles for the Events Component */
+h2 {
+    font-size: 1.5em;
+    color: #E0E0E0; /* Light Gray Text */
+    margin: 1em 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #8E44AD; /* Purple */
+    padding-bottom: 0.5em;
+    text-align: center; /* Center the heading */
+}
+
+/* Events List */
+ul.Events {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 50%; /* Make the list take up half of the screen width */
+    margin: 0 auto; /* Center the list horizontally */
+    background-color: #2C3E50; /* Dark Gray Background */
+}
+
+/* List Items */
+ul.Events li {
+    cursor: pointer;
+    position: relative;
+    background-color: #1C2833; /* Very Dark Gray for list items */
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+ul.Events li:hover {
+    background-color: #34495E; /* Darker Gray Background on Hover */
+    color: #E0E0E0; /* Light Gray Text on Hover */
+    left: 0.2em; /* Slightly shift to the right */
+}
+
+ul.Events li.selected {
+    background-color: #8E44AD; /* Purple Background for Selected */
+    color: #FFFFFF; /* White Text */
+}
+
+ul.Events li.selected:hover {
+    background-color: #732D91; /* Darker Purple on Hover */
+}
+
+/* Badge Styles */
+ul.Events .badge, 
+ul.Events .badge1, 
+ul.Events .badge2, 
+ul.Events .badge3 {
+    display: block;
+    width: 100%; /* Ensure spans take up the full width of their container */
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF; /* White Text */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+ul.Events .badge {
+    background-color: #8E44AD; /* Purple */
+}
+
+ul.Events .badge1 {
+    background-color: #1ABC9C; /* Teal */
+}
+
+ul.Events .badge2 {
+    background-color: #F39C12; /* Orange */
+}
+
+ul.Events .badge3 {
+    background-color: #E74C3C; /* Red */
+}
+

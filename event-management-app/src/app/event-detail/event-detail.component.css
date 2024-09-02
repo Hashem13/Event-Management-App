@@ -1,0 +1,79 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Container for the Details Component */
+.one {
+    padding: 1.5em;
+    background-color: #2C3E50; /* Dark Gray Background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 50%; /* Take up half the screen width */
+    margin: 2em auto; /* Center the container and add top margin */
+    color: #E0E0E0; /* Light Gray Text */
+    font-family: 'Roboto', sans-serif; /* Custom Font */
+}
+
+/* Heading Style */
+.two {
+    color: #E0E0E0; /* Light Gray Text */
+    font-size: 2em; /* Slightly larger for emphasis */
+    margin-bottom: 1em;
+    text-align: center; /* Centered Heading */
+    text-transform: uppercase;
+    font-weight: 700; /* Bold Font */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    border-bottom: 2px solid #8E44AD; /* Purple Border */
+    padding-bottom: 0.5em;
+}
+
+/* ID Display Style */
+.three span {
+    font-weight: 700; /* Bold Text */
+    color: #E74C3C; /* Red Color for ID */
+    font-size: 1.2em; /* Slightly larger for visibility */
+}
+
+/* Form Labels */
+.five, .six, .seven {
+    display: block;
+    margin: 1em 0;
+    font-weight: 700; /* Bold Font */
+    color: #E0E0E0; /* Light Gray Text */
+    font-size: 1em; /* Regular size */
+}
+
+/* Input Fields */
+.five input, .six input, .seven input {
+    width: calc(100% - 1em); /* Full width minus padding */
+    padding: 0.75em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #34495E; /* Dark Gray Border */
+    background-color: #1C2833; /* Very Dark Gray Background */
+    color: #E0E0E0; /* Light Gray Text */
+    box-sizing: border-box;
+    font-size: 1em; /* Regular size */
+    font-family: 'Roboto', sans-serif; /* Custom Font */
+}
+
+/* Focused Input */
+.five input:focus, .six input:focus, .seven input:focus {
+    outline: none;
+    border-color: #8E44AD; /* Purple Border on Focus */
+    background-color: #273746; /* Slightly Lighter Dark Gray */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .one {
+        width: 90%; /* Take up most of the screen width on small devices */
+    }
+
+    .two {
+        font-size: 1.7em; /* Slightly smaller for mobile */
+    }
+
+    .five input, .six input, .seven input {
+        font-size: 0.9em; /* Slightly smaller for mobile */
+    }
+}
